@@ -12,3 +12,7 @@ Jak uruchomić:
 4. Uruchom bota
 
 Jeżeli masz jakieś problemy, zgłoś je w zakładce [problemów](https://github.com/drivim/amazia/issues).
+
+Podziękowania:
+[Eqlila](https://github.com/eqlila) - Za napisanie tego kodu
+

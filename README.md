@@ -12,3 +12,6 @@ How to set it up:
 4. Launch the bot
 
 If you have any issues, report them at the [Issues](https://github.com/drivim/amazia/issues) tab.
+
+Credits:
+[Eqlila](https://github.com/eqlila) - For writing this code
