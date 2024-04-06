@@ -1,0 +1,15 @@
+{
+	"name": "amazia",
+	"version": "0.1.0",
+	"description": "Amazia",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "EUPL-1.2",
+	"dependencies": {
+		"discord.js": "^14.12.1",
+		"dotenv": "^16.4.5",
+		"fuzzysort": "^2.0.4",
+		"minimist": "^1.2.8"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"prefixes": ["amazia "],
+	"directories": {
+		"eventsDir": "./events",
+		"commandsDir": "./commands"
+	},
+	"voting": {
+		"channelId": "snowflake_id",
+		"mentionId": "snowflake_id"
+	},
+	"announcements": {
+		"mentionId": "snowflake_id",
+		"allowedRoleId": "snowflake_id",
+		"webhookId": "snowflake_id",
+		"webhookToken": "string"
+	},
+	"allowedDevelopmentUsers": ["snowflake_id"],
+	"allowedModerationRoles": ["snowflake_id"],
+	"allowedAlarmRoles": "snowflake_id",
+	"guildId": "snowflake_id",
+	"alarmTargetId": "snowflake_id"
+}
+
