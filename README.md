@@ -13,5 +13,7 @@ How to set it up:
 
 If you have any issues, report them at the [Issues](https://github.com/drivim/amazia/issues) tab.
 
+By using this source code, you accept the EUPL license.
+
 Credits:
 [Eqlila](https://github.com/eqlila) - For writing this code

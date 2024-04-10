@@ -13,6 +13,8 @@ Jak uruchomić:
 
 Jeżeli masz jakieś problemy, zgłoś je w zakładce [problemów](https://github.com/drivim/amazia/issues).
 
+Korzystając z tego kodu źródłowego, akceptujesz licencję EUPL.
+
 Podziękowania:
 [Eqlila](https://github.com/eqlila) - Za napisanie tego kodu
 
