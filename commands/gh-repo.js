@@ -6,7 +6,7 @@ module.exports = {
       const lookup = args.join(' ');
   const gh = await fetch(`https://api.github.com/repos/${lookup}`);
       const result = await gh.json();
-      const { name, full_name, description, language, owner } = result;
-  message.reply(`Właściciel Repozytorium: ${owner.login}\nPełna nazwa repozytorium: ${full_name}\nNazwa repozytorium: ${name}\nOpis repozytorium: ${description}\nJęzyk Programowania: ${language}`);
+      const { name, full_name, description, language, owner, created_at, updated_at } = result;
+  message.reply(`Właściciel Repozytorium: ${owner.login}\nPełna nazwa repozytorium: ${full_name}\nNazwa repozytorium: ${name}\nOpis repozytorium: ${description}\nJęzyk Programowania: ${language}\nData utworzenia: ${created_at}\nData ostatniej zmiany: ${updated_at}`);
       }
   }
