@@ -1,3 +1,4 @@
+const { EmbedBuilder, Colors } = require('discord.js');
 const minimist = require('minimist');
 
 module.exports = {
@@ -17,11 +18,15 @@ module.exports = {
 			globalThis.commands.forEach((commandModule) => {
 				out = `${typeof out === 'string' ? out : ''}${commandModule.name} -> ${commandModule.shortDescription}\n`
 			});
+			
+		const embed = new EmbedBuilder()
+		.setColor(Colors.Green)
+		.setTitle('Pomoc')
+		.setDescription(`${out}`);
 
-			return await message.reply(out);
+			return await message.reply({ embeds: [embed] });
 		} else {
 			let out = 'not [yet] implemented';
-
 			return await message.reply(out);
 		}
 	}
