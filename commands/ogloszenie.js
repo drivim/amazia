@@ -17,7 +17,7 @@ module.exports = {
 // My errors show that i shouldn't be working on this bot alone
 		const annoucement = args.join(' ');
 
-		const msg = await webhook.send(`${annoucement}\n||@everyone||`);
+		const msg = await webhook.send(`${annoucement}\n||<@&${config.announcements.mentionId}>||`);
 
 		return await message.reply(`OK: https://discord.com/channels/${config.guildId}/${msg.channel_id}/${msg.id}`);
 	}
