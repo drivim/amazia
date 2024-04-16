@@ -11,7 +11,7 @@ module.exports = {
 
 		const channel = message.guild.channels.cache.get(config.voting.channelId);
 
-		const msg = await channel.send(`Głosowanie!\n${voteDetails}\n😄 - Tak\n😐 - Nie wiem\n🙁 - Nie\n||@everyone||\nGłosowanie zlecone przez <@${message.author.id}>`);
+		const msg = await channel.send(`Głosowanie!\n${voteDetails}\n😄 - Tak\n😐 - Nie wiem\n🙁 - Nie\n||<@&${config.voting.mentionId}>||\nGłosowanie zlecone przez <@${message.author.id}>`);
 
 		await msg.react('😄');
 		await msg.react('😐');
