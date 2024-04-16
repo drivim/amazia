@@ -5,11 +5,9 @@
 		"commandsDir": "./commands"
 	},
 	"voting": {
-		"channelId": "snowflake_id",
-		"mentionId": "snowflake_id"
+		"channelId": "snowflake_id"
 	},
 	"announcements": {
-		"mentionId": "snowflake_id",
 		"allowedRoleId": "snowflake_id",
 		"webhookId": "snowflake_id",
 		"webhookToken": "string"
