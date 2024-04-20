@@ -16,5 +16,5 @@ Jeżeli masz jakieś problemy, zgłoś je w zakładce [problemów](https://githu
 Korzystając z tego kodu źródłowego, akceptujesz licencję EUPL.
 
 Podziękowania:
-[Eqlila](https://github.com/eqlila) - Za napisanie tego kodu
+[Eqilia](https://github.com/eqilia) - Za napisanie tego kodu
 

@@ -16,4 +16,4 @@ If you have any issues, report them at the [Issues](https://github.com/drivim/am
 By using this source code, you accept the EUPL license.
 
 Credits:
-[Eqlila](https://github.com/eqlila) - For writing this code
+[Eqilia](https://github.com/eqilia) - For writing this code
