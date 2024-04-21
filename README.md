@@ -1,4 +1,5 @@
 # Amazia
+# Moved to https://git.sokowirufka.pl/drivim/amazia
 Welcome to repo of Amazia, the bot with multiple commands.
 
 You need to install:
