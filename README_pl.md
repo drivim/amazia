@@ -1,5 +1,5 @@
 # Amazia
-# Przeniesione na https://git.azelia.eu/drivim/amazia
+# Przeniesione na https://codeberg.org/drivim/amazia
 Witaj w repozytorium Amazii, bota z wieloma komendami.
 
 Musisz zainstalować:
